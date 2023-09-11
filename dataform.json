@@ -1,5 +1,5 @@
 {
-  "defaultSchema": "dataflowbigquery",
+  "defaultSchema": "dataform",
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "sincere-passage-397504",
