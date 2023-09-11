@@ -1,0 +1,9 @@
+  config {
+  type: "table"
+}
+
+SELECT
+  OrderID ,
+  count(OrderID) as countid,  
+FROM ${ref("loading")}
+GROUP by 1
