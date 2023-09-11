@@ -1,9 +1,11 @@
-  config {
+
+config {
   type: "table"
 }
 
 SELECT
-  OrderID ,
-  count(OrderID) as countid,  
+ ProductID,
 FROM ${ref("loading")}
-GROUP by 1
+order by ProductID asc
+
+

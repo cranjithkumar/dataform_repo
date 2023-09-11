@@ -3,6 +3,15 @@
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "sincere-passage-397504",
-  "defaultLocation": "US"
+  "defaultLocation": "US" ,
+  
+
+"datasets": {
+    "dataflowbigquery": {
+      "type": "table",
+      "schema": "dataflowbigquery_data",
+      "tags": ["dataflowbigquery"],
+      "description": "Your dataset description"
+    }
+  }
 }
-    
