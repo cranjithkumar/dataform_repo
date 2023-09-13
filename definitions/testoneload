@@ -1,9 +1,0 @@
-
-  config {
-  type: "table",
-}
-
-SELECT
-  *
-FROM
-  sincere-passage-397504.dataform.gcstobigquery

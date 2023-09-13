@@ -1,7 +1,0 @@
-config {
-  type: "table"
-}
-
-SELECT 	
-Domain
-FROM ${ref("loading_bq")}
