@@ -6,4 +6,4 @@
 SELECT
   *
 FROM
-  `sincere-passage-397504.dataflowbigquery.aa
+  sincere-passage-397504.dataform.gcstobigquery

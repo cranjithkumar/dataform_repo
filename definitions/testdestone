@@ -2,8 +2,6 @@ config {
   type: "table"
 }
 
-SELECT
- location,value
+SELECT 	
+Domain
 FROM ${ref("loading_bq")}
-where value =1 
-order by location asc
