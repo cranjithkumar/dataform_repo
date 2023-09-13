@@ -5,4 +5,4 @@ config {
 SELECT
   *
 FROM
-  'sincere-passage-397504.dataform.gcstobigquery'
+   sincere-passage-397504.dataform.gcstobigquery
